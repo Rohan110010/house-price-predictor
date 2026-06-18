@@ -272,7 +272,7 @@ streamlit run app.py
 
 # 👨‍💻 Author
 
-**Rohan Kumar**
+**Rohan Kumar Singh**
 
 GitHub:
 https://github.com/Rohan110010
