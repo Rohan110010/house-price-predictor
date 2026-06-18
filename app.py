@@ -72,7 +72,6 @@ year_built = st.number_input(
 
 # Prediction
 if st.button("Predict Price"):
-
     input_data = pd.DataFrame({
         "OverallQual": [overall_qual],
         "GrLivArea": [gr_liv_area],

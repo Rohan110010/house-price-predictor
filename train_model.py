@@ -6,7 +6,6 @@ import joblib
 
 # Load dataset
 df = pd.read_csv("train.csv")
-
 # Select important features
 X = df[
     [
@@ -18,10 +17,8 @@ X = df[
         "YearBuilt"
     ]
 ]
-
 # Target column
 y = df["SalePrice"]
-
 # Split dataset
 X_train, X_test, y_train, y_test = train_test_split(
     X,
@@ -37,7 +34,6 @@ model = RandomForestRegressor(
 )
 
 model.fit(X_train, y_train)
-
 # Test model
 predictions = model.predict(X_test)
 
