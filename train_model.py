@@ -152,6 +152,7 @@ plt.barh(
     feature_importance["Feature"],
     feature_importance["Importance"]
 )
+plt.gca().invert_yaxis()
 
 plt.title("Feature Importance")
 plt.xlabel("Importance")
